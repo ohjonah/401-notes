@@ -19,4 +19,11 @@ describe('Greet Module', function() {
       }, 'error not thrown');
     });
   });
+
+  describe('#sayBye', function() {
+    it('should return see ya later!', function() {
+      var bye = greet.sayBye();
+      assert.ok(bye === 'see ya later!', 'not equal to see ya later!');
+    });
+  });
 });

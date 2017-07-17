@@ -48,6 +48,17 @@ const hello = require('./lib/hello.js');
 ## 1-hello-world-module-methods
 
 # Intro to Testing w/ Mocha
+## 1-hello-world-module-tests
+all tests go into **test** directory
+mocha looks for a test directory
 
+bring in modules
+- file you want to run tests on
+- e2e testing module, like assert.
+
+looks for a 'test' directory and runs tests on it
+```sh
+mocha
+```
 
 # Assignment Prep/Workflow Discussion
