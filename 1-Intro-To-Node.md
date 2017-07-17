@@ -47,8 +47,6 @@ const hello = require('./lib/hello.js');
 
 ## 1-hello-world-module-methods
 
-## 1-hello-world-
-
 # Intro to Testing w/ Mocha
 
 
