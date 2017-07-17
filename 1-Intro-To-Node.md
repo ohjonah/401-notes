@@ -46,8 +46,11 @@ const hello = require('./lib/hello.js');
 ```
 
 ## 1-hello-world-module-methods
+(see 1-demo)
 
 # Intro to Testing w/ Mocha
+> JS testing framework
+
 ## 1-hello-world-module-tests
 all tests go into **test** directory
 mocha looks for a test directory
@@ -62,3 +65,4 @@ mocha
 ```
 
 # Assignment Prep/Workflow Discussion
+- always include *config* files
