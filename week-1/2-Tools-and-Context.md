@@ -70,4 +70,12 @@ function faker() {
 #### fp-methods.js
 
 # Assertion Testing w/ Chai JS
+using human readable language (BDD) to chain together assertion methods
+
+require chai but DO NOT const = 'expect', but rather '.expect';
+```js
+const expect = require('chai').expect;
+```
+
 # Assignment Prep
+see demo file: fp-methods.js
