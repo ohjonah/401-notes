@@ -78,5 +78,6 @@ Fills out an absolute path with ```sh__dirname```:
 fs.readFile(`${__dirname}/data/data.txt`);
 ```
 
+Helpful Tip: Build a wrapper to make it testable (like in read-file-test demo)
 
 # Assignment Prep
