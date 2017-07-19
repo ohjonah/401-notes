@@ -78,6 +78,10 @@ Fills out an absolute path with ```sh__dirname```:
 fs.readFile(`${__dirname}/data/data.txt`);
 ```
 
-Helpful Tip: Build a wrapper to make it testable (like in read-file-test demo)
+**Helpful Tip: Build a wrapper to make it testable (like in read-file-test demo)**
 
 # Assignment Prep
+
+- offset buffer size;
+- offset info in your txt files to make sure you are calling them asynchronously
+- describe how done works
