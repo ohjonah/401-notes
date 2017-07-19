@@ -1,5 +1,12 @@
 # Async and File System i/o
 
+Organizing Your Node Code:
+- native node modules, i.e. fs et. al
+- npm modules, i.e. express et. al
+- custom app modules, i.e. greet.js et. al
+- module constant, i.e. port
+- module logic, e.g. the code
+
 # Callbacks
 #### callback-demo.js
 Node uses an error-first callback pattern.
@@ -62,7 +69,14 @@ Output:
 
 # File System i/o
 #### ./read-file-demo
+#### ./write-file-demo
+#### ./read-file-test
 
+Fills out an absolute path with ```sh__dirname```:
+
+```js
+fs.readFile(`${__dirname}/data/data.txt`);
+```
 
 
 # Assignment Prep
