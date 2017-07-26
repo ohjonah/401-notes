@@ -5,6 +5,7 @@ module.exports = function(req, callback) {
   req.body = '';
 
   req.on('data', function(data) {
+    console.log('data:', data);
     req.body += data.toString();
   });
 
@@ -14,6 +15,6 @@ module.exports = function(req, callback) {
       callback(null, req.body);
     } catch (err) {
       callback(err);
-    };
+    }
   });
 };
