@@ -39,10 +39,13 @@ bigNumber.then(success).catch(throwError);
 - storage: mimics the way that saves to mongodb
 
 # Build Order
-* parse-json.js
-* parse-url.js
-* router.js
-* storage.js
-* note.js
-* server.js
-* test.js
+*Step 1* - build the scaffold (directory structure and creation of files)
+*Step 2* - configure build tools (`package.json` and associated npm scripts)
+*Step 3* - create a simple server and test that your server is running (pull in the `http` module, create a server - `createServer`, listen on a specified port - `server.listen`
+*Step 4* - create your middleware components (`parseJSON.js`, and `parseURL.js`)
+*Step 5* - create your custom router constructor with associated `get`, `post`, `put`, `delete`, and `route` prototype methods
+*Step 6* - create your resource data model (`note.js`)
+*Step 7* - create your data storage module (`storage.js`)
+*Step 8* - create your CRUD routes (`router.get('/api/resource')`, `router.post('/api/resource')`) and plug those into your `server.js` file
+*Step 9* - plugin your `route` prototype method into your `createServer` call in `server.js`
+*Step 10* - create a series of tests for your routes
